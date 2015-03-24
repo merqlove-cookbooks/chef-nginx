@@ -128,4 +128,5 @@ default['nginx']['client_max_body_size']        = nil
 default['nginx']['large_client_header_buffers'] = nil
 default['nginx']['default']['modules']          = []
 
-default['nginx']['extra_configs'] = {}
+default['nginx']['extra_configs']     = {}
+default['nginx']['extra_raw_configs'] = []
